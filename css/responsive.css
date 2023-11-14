@@ -1,0 +1,236 @@
+@media(max-width:1000px) {
+
+    .navbar {
+        display: block !important;
+        padding: 10px 20px !important;
+    }
+
+    .header-one i {
+        display: inline-block !important;
+    }
+
+    .header-one .fa-solid {
+        padding: 0px 4px !important;
+    }
+
+    .header-one {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+
+    .header-one .about-contact-help-Qfe {
+        display: none !important;
+    }
+
+    .header-two,
+    .header-three {
+        display: none !important;
+    }
+
+    .items-main {
+        padding: 0px 20px !important;
+    }
+
+    .Shop-store-1 span {
+        font-size: 25px !important;
+    }
+
+    .items-main {
+        padding: 0px 25px !important;
+        position: relative;
+    }
+
+    .fotter-links ul {
+        padding: 0px !important;
+    }
+
+    .all-items-padding {
+        padding: 0px 20px !important;
+    }
+
+    .items-main {
+        padding: 0px 20px !important;
+        position: relative;
+    }
+
+}
+
+@media(max-width:600px) {
+    .Shop-store-1 span {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+
+    .header-one i {
+        display: none !important;
+    }
+
+    .span-after-1 {
+        display: none !important;
+    }
+
+    .span-after {
+        display: none !important;
+    }
+
+
+    .payment-img {
+        text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+
+    .fotter-copy-right {
+        text-align: center !important;
+    }
+
+    .B-details h1 {
+        font-size: 35px;
+        padding: 0px !important;
+    }
+
+    .B-details {
+        align-items: top !important;
+    }
+
+    .Accounts-layout {
+        margin: 0px !important;
+    }
+
+    .B-img-box img {
+        width: 100% !important;
+        min-height: 330px !important;
+    }
+
+    .other-service-box .fa-solid {
+        font-size: 25px !important;
+    }
+
+    .B-img-box img {
+        object-fit: cover !important;
+    }
+
+    .navbar {
+        padding: 10px 0px !important;
+    }
+}
+
+/* pages link start  */
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    color: white !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 0px 0px !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffcc15 !important;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 90090;
+}
+
+.dropdown-content a {
+    color: black !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    display: block !important;
+    margin: 10px 0px !important;
+}
+
+.dropdown-content a:hover {
+    background-color: #e9e6e6;
+    color: black !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: rgb(42, 42, 41);
+}
+
+.dropbtn:hover {
+    color: #ffcc15 !important;
+}
+
+.dropdown-content a:hover {
+    color: black !important;
+}
+
+/* pages link end  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* section start shop   */
+@media(max-width:1000px) {
+    .main-shop-center {
+        padding: 0px 10px !important;
+        background-color: #f3f2ef;
+    }
+}
+
+/* section start end  */
+
+
+
+@media(max-width:500px) {
+    .d-flex {
+        flex-direction: column;
+        padding: 0px !important;
+    }
+
+    .d-flex .size-form {
+        flex-direction: column !important;
+        padding: 5px 0px !important;
+    }
+
+    .custom-control {
+        padding: 0px !important;
+        margin-top: 10px !important;
+    }
+
+
+    .contact-heading h3::after {
+        content: '';
+        width: 100%;
+        height: 3px;
+        background-color: #fbe36da9;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        max-width: 50%;
+        display: none !important;
+}
+
+.contact-heading{
+    padding: 20px 10px !important;
+}
+
+.contact-input-box {
+
+    padding: 20px 10px !important;
+}
+
+.map-box {
+    padding: 20px  0px !important;
+}
+}

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is style.css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Shop-detail.com</title>
+</head>
+<style>
+    .owl-theme .owl-nav {
+        display: flex !important;
+        justify-content: space-between !important;
+        position: absolute;
+        width: 100% !important;
+        top: 40% !important;
+        padding: 0px 10px !important;
+    }
+
+    .owl-nav button {
+        font-size: 70px !important;
+        outline: none !important;
+        border: none !important;
+    }
+    .owl-carousel{
+        position: relative;
+    }
+    .owl-nav button:hover{
+        background-color: transparent !important;
+        color: black !important;
+    }
+</style>
+<body> 
+    <!-- header section  start -->
+
+    <!-- header pat one start  -->
+    <div class="header-one">
+        <div class="about-contact-help-Qfe">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">FAQs</a></li>
+            </ul>
+        </div>
+        <!-- Accounts-layout start -->
+        <div class="Accounts-layout">
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">My
+                    Accounts</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Sign In</a></li><br>
+                    <li><a class="dropdown-item" href="#">Sign up</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">USD</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EUR</a></li><br>
+                    <li><a class="dropdown-item" href="#">GBP</a></li><br>
+                    <li><a class="dropdown-item" href="#">CAD</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">EN</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">FR</a></li><br>
+                    <li><a class="dropdown-item" href="#">AR</a></li><br>
+                    <li><a class="dropdown-item" href="#">RU</a></li>
+                </ul>
+            </div>
+            <div class="mx-4">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-brands fa-creative-commons-zero"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-brands fa-creative-commons-zero"></i>
+            </div>
+        </div>
+        <!-- Accounts-layout end -->
+    </div>
+    <!-- header pat one end  -->
+
+    <!-- header pat two  start -->
+    <div class="header-two">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="logo">
+                        <div class="right">
+                            <h2>MULTI</h2>
+                        </div>
+                        <div class="left">
+                            <h2>SHOP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="header-input">
+                        <input type="text" placeholder="Search for products"><i
+                            class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-box">
+                        <p>Customer Service</p>
+                        <h6>+012 345 6789</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header pat two  end -->
+
+    <!-- header pat three  start-->
+    <div class="header-three">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="categories-dropdown" id="categories-main">
+                    <div>
+                        <i class="fa-solid fa-bars"></i>
+                        <span>Categoires</span>
+                    </div>
+                    <div><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-ul">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href=""> Shop Detail</a></li>
+                        <li><a href="">
+                                <div class="dropdown">
+                                    <button class="dropbtn">Pages</button>
+                                    <i style="display: inline-block; font-size: 12px;"
+                                        class="fa-solid fa-angle-down"></i>
+                                    <div class="dropdown-content">
+                                        <a href="">Shoping cart</a>
+                                        <a href="">Checkout</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="right-header-icon">
+                    <div class="mx-4"><i class="fa-solid fa-heart"></i><i
+                            class="fa-brands fa-creative-commons-zero"></i></div>
+                    <div><i class="fa-solid fa-cart-shopping"></i><i class="fa-brands fa-creative-commons-zero"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar start  -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="col-lg-4">
+                    <div class="logo">
+                        <div class="right">
+                            <h2>MULTI</h2>
+                        </div>
+                        <div class="left">
+                            <h2>SHOP</h2>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Detail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <section class="main-shop-center">
+        <div class="container-fluid py-4">
+            <div class="home-shop">
+                <a href="">Home /</a>
+                <a href="">Shop /</a>
+                <span>Shop List</span>
+            </div>
+        </div>
+    </section>
+    <section class="main-shop-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 mt-3">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-7.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-8.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-details-image">
+                                <img src="img/product-9.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 mt-3">
+                    <div class="Product-Name-Goes-Here">
+                        <div class="Product-Name-reviews py-3">
+                            <h3 class="py-2">Product Name Goes Here</h3>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(99 Reviews)</span>
+                            </div>
+                            <div class="price-heading">
+                                <h4>$150.00</h4>
+                            </div>
+                        </div>
+                        <div class="Product-Name-reviews-para">
+                            <p class="pb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet
+                                sit clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea Nonumy</p>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <strong class="text-dark mr-3">(Sizes)</strong>
+                            <form class="size-form">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-1" name="size">
+                                    <label class="custom-control-label" for="size-1">XS</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-2" name="size">
+                                    <label class="custom-control-label" for="size-2">S</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-3" name="size">
+                                    <label class="custom-control-label" for="size-3">M</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-4" name="size">
+                                    <label class="custom-control-label" for="size-4">L</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-5" name="size">
+                                    <label class="custom-control-label" for="size-5">XL</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <strong class="text-dark mr-3">(Colors)</strong>
+                            <form class="size-form">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-1" name="size">
+                                    <label class="custom-control-label" for="size-1">Black</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-2" name="size">
+                                    <label class="custom-control-label" for="size-2">Whote</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-3" name="size">
+                                    <label class="custom-control-label" for="size-3">Yellow</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-4" name="size">
+                                    <label class="custom-control-label" for="size-4">Green</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="size-5" name="size">
+                                    <label class="custom-control-label" for="size-5">Red</label>
+                                </div>
+                            </form>
+                        </div>
+                       <div class="qty">
+                        <div class="qty-flex">
+                        <button class="btn btn-dark" id="sub"><i class="fa-solid fa-minus"></i></button>
+                        <input type="text" id="qty" value="0" readonly="">
+                        <button class="btn btn-dark" id="add"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                        <button class="btn btn-dark"><i class="fa-solid fa-cart-shopping"></i><span>Add To Cart</span></button>
+                       </div>
+                       <div class="qty-icon py-3">
+                        <span>Share on:</span>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                       </div>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+
+    <section class="Description py-4 mt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Description</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Information</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Reviews (0)</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="information-box">
+                                        <h3 class="py-3">Product Description</h3>
+                                        <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
+                                        <p class="mt-4">Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                           <div class="Information-box">
+                            <div class="row">
+                                <div class="col">
+                                    <h3 class="py-3">Additional Information</h3>
+                                    <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
+                                </div>
+                            </div>
+
+                           <div class="information-info mt-4">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Sit erat duo lorem duo ea consetetur, et eirmod takimata.</p>
+                                    <p>Amet kasd gubergren sit sanctus et lorem eos sadipscing at.</p>
+                                    <p>Duo amet accusam eirmod nonumy stet et et stet eirmod.</p>
+                                    <p class="none-border">Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.</p>
+                                </div>
+
+
+                                <div class="col-md-6">
+                                    <p>Sit erat duo lorem duo ea consetetur, et eirmod takimata.</p>
+                                    <p>Amet kasd gubergren sit sanctus et lorem eos sadipscing at.</p>
+                                    <p>Duo amet accusam eirmod nonumy stet et et stet eirmod.</p>
+                                    <p class="none-border">Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.</p>
+                                </div>
+                            </div>
+                           </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                            <div class="Reviews-box">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="Reviews-info">
+                                            <h3 class="py-3">1 review for "Product Name"</h3>
+                                            <div class="Reveiws-user">
+                                                <img src="img/user.jpg">
+                                                <div>
+                                                <p class="pb-2">John Doe - <span>01 Jan 2045</span></p>
+                                                <div>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <p class="small-reveiws-box">Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
+                                            </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="col-md-6">
+                                    <div class="Leave-review box">
+                                        <h4 class="mt-3">Leave a review</h4>
+                                        <small class="mt-2">Your email address will not be published. Required fields are marked *</small>
+                                        <div class="your-rating-box py-4">
+                                        <span>Your Rating * : </span>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <p>Your Review *</p>
+                                    </div>
+                            <div class="row mt-2">
+                                <div class="col">
+                                    <div class="review-contect-form">
+                                    <div>
+                                     <textarea name="" id=""></textarea>
+                                    </div>
+                                     <label for="" class="py-2">Your Name *</label><br>
+                                     <input type="text" placeholder=""><br>
+                                     <label for="" class="py-2">Your Email  *</label><br>
+                                     <input type="text" placeholder=""><br>
+                                     <button class="btn btn-dark mt-2">Leave Your Review</button>
+                                    </div>
+                         </div>
+                        </div>
+                         </div>
+                        </div>
+                         </div>
+                         </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="shop-item-slider-section mt-5" >
+        <div class="container-fluid">
+            <div class="row">
+                
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- fotter start  -->
+    <div class="container-fluid fotter-main items-main mt-3">
+    <div class="fotter-border pt-5">
+        <div class="row">
+            <div class="col-lg-4 mt-2">
+                <div class="fotter-title mb-3">
+                    <h4>GET IN TOUCH</h4>
+                </div>
+                <div class="fotter-info mb-4">
+                    <p>No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum
+                        tempor no vero est magna amet no</p>
+                </div>
+
+                <div class="fotter-contact-info">
+                    <a href=""><i class="fa-solid fa-location-dot"></i><span>123 Street, New York, USA</span></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i><span>info@example.com</span></a>
+                    <a href=""><i class="fa-solid fa-phone"></i><span>+012 345 67890</span></a>
+                </div>
+
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-lg-4 mt-2">
+                        <div class="fotter-title mx-md-4 mt-3 px-md-2 mb-3">
+                            <h4>QUICK SHOP</h4>
+                        </div>
+                        <div class="fotter-links">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>home</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Our Shop</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Shop Detail</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Shopping Cart</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Checkout</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-2">
+                        <div class="fotter-title mx-md-4 px-md-2 mb-3">
+                            <h4>My Accounts</h4>
+                        </div>
+                        <div class="fotter-links">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>home</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Our Shop</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Shop Detail</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Shopping Cart</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Checkout</a></li>
+                                <li><a href=""><i class="fa-solid fa-chevron-right"></i>Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center mt-2">
+                        <div class="fotter-title mb-3">
+                            <h4>NEWSLETTER</h4>
+                        </div>
+                        <div>
+                            <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                        </div>
+                        <div class="fotter-input">
+                            <input type="text" placeholder=" Enter Your Email"><a href="">Sign In</a>
+                        </div>
+                        <div class="mt-4">
+                            <h4>FOLLOW US</h4>
+                        </div>
+                        <div class="fotter-icones mt-3">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-lg-6 mt-2">
+            <div class="fotter-copy-right ">
+                <p>© <a href="">Waqas. </a>All Rights Reserved. Designed by Waqas</p>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-2">
+            <div class="payment-img">
+                <img src="img/payments.png" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- fotter end 
+     Latest compiled JavaScript -->
+     <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+           $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            smartSpeed: 350,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+
+        // qty  code 
+        let sub = document.getElementById("sub");
+        let qty = document.getElementById("qty");
+        let add = document.getElementById("add");
+
+        add.addEventListener('click', ()=>{
+            qty.value = parseInt (qty.value) +1;
+        });
+
+        sub.addEventListener('click', ()=>{
+            if(qty.value>0){
+                qty.value = parseInt (qty.value) -1;
+            }
+        });
+
+
+
+        $(' #aaaaa .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
